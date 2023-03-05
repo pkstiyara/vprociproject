@@ -17,9 +17,6 @@ pipeline {
         NEXUS_LOGIN = 'nexuslogin'
         SONARSERVER = 'sonarserver'
         SONARSCANNER = 'sonarscanner'
-          
-        SONARSERVER = 'sonarserver'
-        SONARSCANNER = 'sonarscanner'
 
     }
 
