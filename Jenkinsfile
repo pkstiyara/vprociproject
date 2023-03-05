@@ -31,8 +31,8 @@ pipeline {
                     archiveArtifacts artifacts: '**/*.war'
                 }
                 
-              
- stage('CODE ANALYSIS with SONARQUBE') {
+                stages{
+                stage ('CODE ANALYSIS with SONARQUBE') {
           
           environment {
              scannerHome = tool "${SONARSCANNER}"
@@ -50,6 +50,9 @@ pipeline {
             }
           }
         }
+                    
+                    
+                }
                 
                 
                 
